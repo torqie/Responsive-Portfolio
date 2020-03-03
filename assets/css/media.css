@@ -1,0 +1,47 @@
+@media screen and (max-width: 960px) {
+    footer {
+      background-color: #333333;
+      border-top: 8px solid #7fff00;
+    }
+  
+    body {
+      background: #555555;
+    }
+  
+    .container {
+      width: 80%;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #7fff00;
+      font-family: "Oswald";
+      font-weight: 200;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    footer {
+      background-color: #2f4f4f;
+      border-top: 8px solid #ff8c00;
+    }
+  
+    body {
+      background: #171717;
+    }
+  
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #ff8c00;
+      font-family: "Oswald";
+      font-weight: 200;
+    }
+  }
