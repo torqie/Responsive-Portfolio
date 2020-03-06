@@ -1,0 +1,22 @@
+/** START -- FOOTER **/
+footer {
+    background-color: #666666;
+    height: 50px;
+    margin-top: 170px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+footer p {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    color: #a5a5a5;
+    font-size: 11px;
+}
+/** END -- FOOTER **/

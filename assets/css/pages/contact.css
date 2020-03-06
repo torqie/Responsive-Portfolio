@@ -1,11 +1,14 @@
 /** START -- CONTACT PAGE **/
 #contact .form-control {
     margin-bottom: 10px;
+
+
 }
 
 input, textarea, label {
-    width: 905px;
+    width: 100%;
     display: block;
+    box-sizing: border-box;
 }
 label {
     margin-bottom:4px;

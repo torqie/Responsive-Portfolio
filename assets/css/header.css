@@ -1,0 +1,54 @@
+/** START -- HEADER **/
+header {
+    margin: 0;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    width: 100%;
+
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header nav ul li {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+    border-right: 1px solid #777777;
+}
+header nav ul li:last-child {
+    border: none;
+    padding-right: 0;
+}
+
+header a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4aaaa5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+header a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+/** END -- HEADER **/
