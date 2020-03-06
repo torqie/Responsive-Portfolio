@@ -30,8 +30,13 @@
         margin:0 0 10px 0;
     }
 
+    #portfolio {
+        text-align: center;
+    }
+
     #portfolio .portfolio-item {
-        margin: 10px 0;
+        margin: 15px auto;
+        width: 100%;
     }
 
     #portfolio .portfolio-item:hover {
